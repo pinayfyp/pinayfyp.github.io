@@ -86,13 +86,13 @@
             </h1>
         </div>
 
-        <!-- Pemutar Media / Video Box Realistis -->
-        <div class="w-full aspect-video bg-black relative flex items-center justify-center group cursor-pointer overflow-hidden">
+        <!-- Pemutar Media / Video Box Realistis (Sudah Ditambahkan ID & Interaksi Klik) -->
+        <div id="playerArea" class="w-full aspect-video bg-black relative flex items-center justify-center group cursor-pointer overflow-hidden transition-transform active:scale-[0.99]">
             <!-- Background Poster Gelap Bersih -->
             <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-black/30"></div>
             
             <!-- Tombol Play Khas Facebook (Nyaman Ditekan) -->
-            <div class="soft-pulse w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-[#1877f2] text-white flex items-center justify-center shadow-lg border-2 border-white/80 z-20 transition-transform">
+            <div class="soft-pulse w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-[#1877f2] text-white flex items-center justify-center shadow-lg border-2 border-white/80 z-20 transition-transform group-hover:scale-105 active:scale-95">
                 <i class="fas fa-play text-xl sm:text-2xl ml-1"></i>
             </div>
 
@@ -149,7 +149,7 @@
 
     </main>
 
-    <!-- Footer Standar Platform -->
+    <!-- Footer Standar Meta Friendly -->
     <footer class="w-full max-w-lg mx-auto text-center text-[#65676b] text-[11px] pt-3 pb-1">
         Pengalaman streaming dioptimalkan untuk Facebook Mobile Browser
     </footer>
